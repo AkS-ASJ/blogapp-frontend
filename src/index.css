@@ -1,0 +1,23 @@
+.error {
+    color: yellow;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.col-sm-9 {
+    text-align: center;
+    margin: auto;
+}
+
+.blogStyle {
+    padding-Top: 10px;
+    padding-Left: 2px;
+    border: solid 1px;
+    margin-Bottom: 5px;
+    border-radius: 5px;
+}
+
