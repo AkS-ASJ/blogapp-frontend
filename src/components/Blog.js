@@ -15,7 +15,7 @@ const Blog = ({blog, addLike, deleter, user}) => {
         <p className={"preview"} style={hideWhenVisible}>{blog.title} {blog.author} <button className={'btn btn-dark'} onClick={toggleVisibility}>View</button></p>
         <p className={'full'} style={showWhenVisible}>
           {blog.title} {blog.author}<button className={'btn btn-dark'} onClick={toggleVisibility}>Hide</button><br/>
-          {blog.url} <br/>
+          <a href={blog.url}>{blog.url}</a> <br/>
           Likes {blog.likes}<br/> 
           {blog.user.name}
         </p>
